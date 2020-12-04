@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.page-header {
+  padding: 10px;
+  background: teal;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      font-size: 18px;
+      color: #fff;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
